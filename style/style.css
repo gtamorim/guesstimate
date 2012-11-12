@@ -1,0 +1,333 @@
+* {font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
+html, body, .formular, #slider1, .questions, #formailSlide label div, #formail label div {margin:0px; padding: 0px;}
+.formular, .explain, #explainComputer, #explainServer, #ulRadioButns>li, #formailSlide span, #formailSlide label div, #formail label div {display: inline-block;}
+.questions,.lastForm u {display: block;}
+.mainBox{
+    width: 690px;
+    height: 480px;   
+    margin: 0px auto;    
+    padding: 25px 25px;
+    background: #C6D9F1;
+    border-radius: 10px;
+    border: 2px solid #9BAEC4;
+}
+/******************* Progress Bar ***************************/
+#progressBar{
+    width:0px;
+    height: 5px;    
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;    
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5CB811), color-stop(1, #77D42A) );
+    background: -moz-linear-gradient( center top, #5CB811 5%, #77D42A 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+    background-color: #5CB811;
+    /*background-image: -webkit-linear-gradient(0deg, transparent 99%, black 99%);
+    background-size: 171px 171px;*/
+}
+.progressBox{
+    background: white;
+    width: 680px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 2px solid #6E91AD;
+    margin: 0 0 20px 5px;
+}
+/******************* Sider First page ***************************/
+.firstTitle{
+    margin: 20px 0 10px 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1F497D;    
+}
+.startForm, .lastForm {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;    
+}
+.startForm{width: 300px;text-align: justify;}
+.lastForm a {color: #000;}
+/******************* Sider Computer page ***************************/
+.formular {
+    width: 400px;
+}
+#inputComputer, #inputServer, #inputScreen, #microsoftOffice, #inputSwitch, #inputRouter, 
+#inputElse, #name, #mail, #nameSlide, #mailSlide, #comment {
+    background-color: #FFF;
+    margin: 1px 0 10px 1px;    
+    outline: none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: 3px solid #2D609C;
+    color: black;
+    padding: 3px;    
+    font-weight: bold;
+    box-shadow: 0px 0px 1px;  
+    float: right;
+}
+#inputComputer, #inputServer, #inputScreen, #microsoftOffice, #inputSwitch, #inputRouter{width: 45px;font-size: 33px;text-align: center;height: 45px;}
+#inputElse, #comment {width: 388px;resize: none;height: 45px;font-size: 14px;text-align: left;}
+#name, #mail, #nameSlide, #mailSlide{width: 200px;height: 30px;font-size: 18px;}
+
+/******************* Sider Equipment page ***************************/
+.radioBtns{
+    margin: 10px 0 0 75px;
+    width: 110px;
+}
+
+/******************* Sider Thank You page ***************************/
+.lastTitle{text-align: center;}
+.lastForm{width: 650px;}
+.lastForm u{text-decoration:underline;}
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; } 
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+    background: #A7BFDE; overflow: hidden; 
+    border: 1px solid #fff;     
+}
+.datagrid table td, .datagrid table th { padding: 3px 10px; }
+.datagrid table thead th {    
+    background-color:#4F81BD; color:#FFFFFF; font-size: 15px; 
+    font-weight: bold; border-left: 1px solid #fff; border-bottom:3px solid #fff;
+    padding: 11px 0;text-align: center;} 
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { 
+    color: #000; border-left: 1px solid #fff;
+    font-size: 16px;font-weight: normal; 
+}
+.datagrid table tbody .alt td { background: #D3DFEE; color: #000; border-top: 1px solid #fff;border-bottom: 1px solid #fff;}
+/*.datagrid table tbody td:first-child { 
+    border-left: none; background: #4F81BD;color:#fff;
+    border-right:3px solid #fff;border-top: 1px solid #fff;
+}*/
+.datagrid table thead tr:first-child th:first-child {border-bottom: 3px solid #fff;}
+#totalForTwoYears, #totalForThreeYears ,#totalForFiveYears {text-align: center;font-weight: bold;padding: 11px 0;}
+/******************* Sider and items ***************************/
+
+#slider1 > li {   
+    list-style: none;      
+    width: 690px;
+    background: #C6D9F1;
+    height: 390px;
+    float: left; 
+}
+.title{
+    width: 339px;
+    float: left;    
+    font-weight: bolder;
+    color: #1F497D;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.questions{
+    width: 240px;
+    height: 36px;
+    -moz-box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    -o-box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #BEE2F9;
+    box-shadow: inset 0px 1px 0px 0px #BEE2F9;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5D9AE2), color-stop(1, #2D609C) );
+    background: -moz-linear-gradient( center top, #5D9AE2 5%, #2D609C 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5D9AE2', endColorstr='#2D609C');
+    background-color: #5D9AE2;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    padding: 10px 24px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px #252525;
+    margin-bottom: 15px;
+}
+.explain{
+    width: 220px;
+    height: 250px;
+    float: right;      
+    text-align: center;
+}
+#explainComputer, #explainServer {
+    width: 220px;
+    height: 100px;
+    text-align: justify;
+}
+.explainComputer img{
+    width: 100%;
+}
+.explainServer img{
+    height: 100%;
+}
+.radioBtnsinline{
+    margin: 0px;
+    width: 85px;
+    float: right;
+}
+.dropDwon {
+    margin: 0 112px 24px 0;    
+    outline: none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;    
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    border: 3px solid #2D609C;
+    color: black;
+    padding: 3px;
+    box-shadow: 3px 3px 3px;
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    /*background: url(../images/drop_down.png) no-repeat right white;*/
+    overflow: hidden;
+    width: 200px;
+}
+.dropDwon select {
+    background: transparent;
+    width: 200px;
+    font-size: 16px;    
+    border: 1px solid transparent;
+    margin: 0;
+    position: relative;
+    top: -1px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: menulist-button;
+}
+/******************* Pervious and Next and send button***************************/
+/*Pervious and Next button*/
+.prev-next{
+    text-align: right;
+    margin: 15px 0 0 0;
+}
+#go-next, #go-prev, #start {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+    background-color:#77d42a;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #268a16;
+    display:inline-block;    
+    font-family:arial;    
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-align:center;
+}
+#go-next:hover, #go-prev:hover, #start:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+    background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+    background-color:#5cb811;
+}
+#go-next:active, #go-prev:active, #start:active {
+    position:relative;
+    top:1px;
+} 
+#go-next, #go-prev {color:#306108;text-shadow:0px 1px 0px #aade7c;font-size:15px;}
+#start {height: 30px;color:white;text-shadow: 0px 1px 0px #306108;font-size:20px;float: left;margin: 70px;}
+#start span {
+    vertical-align: middle;
+    display: table-cell;
+    height: 30px;
+    width: 100px;
+}
+
+/************** send button **************/
+#send-email, .send-emailBtn {
+    -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+    background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+    background-color:#63b8ee;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #3866a3;
+    color:#14396a;
+    display:inline-block;    
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #7cacde;
+}
+#send-email:hover, .send-emailBtn:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+    background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+    background-color:#468ccf;
+}#send-email:active, .send-emailBtn:hover {
+    position:relative;
+    top:1px;
+}
+#go-next, #send-email, .send-emailBtn {margin-left: 10px;}
+.send-emailBtn{float: right;position: relative;top: -2px;}
+/******************************** Pop-up ***************************/
+
+#popup, #popup1, #popupTerms {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 25px 5px #999;
+    color: #111;
+    display: none;    
+    padding: 25px;        
+}
+#popup  { min-height: 200px;min-width: 450px;}
+#popup1 { min-height: 50px; min-width: 350px;font-weight: bold;}
+#popupTerms { }
+#popupTerms div{width: 600px;}
+.button.bClose {
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: none;
+    font: bold 131% sans-serif;
+    padding: 0 6px 2px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+.button {
+    background-color: #2B91AF;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+/**********form******/
+.formID{
+    width:400px;
+}
+#formail {    
+    text-align: center;
+    padding-left: 150px;
+}
+#formail span {    
+    width: 300px;
+    display: block;
+    height: 60px;
+}
+#formail label{margin-bottom: 3px;}
+#formail label a {color:black;}
+#formail label div {color:red;}
+
+/***************************** Loading circular **********************************/
+.sndMsgLoad, #response{display: table-cell;vertical-align: middle;margin: 0 0 0 20px;height: 35px;display:inline-block;}
